@@ -6,7 +6,7 @@ const app = express();
 const mongo  = require('mongodb');
 const mongoCliet = mongo.MongoClient;
 // dotEnv.config();
-const mongoUrl = process.env.MongoLiveUrl;
+const mongoUrl = 'mongodb+srv://testDevUser:testDevUser@cluster0.bpimv.mongodb.net/edu_intern?retryWrites=true&w=majority';
 var port = process.env.PORT || 8225;
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
