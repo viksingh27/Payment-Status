@@ -4,8 +4,8 @@
   "description": "First Project",
   "main": "zomatoApi.js",
   "scripts": {
-    "start": "node zomatoApi.js",
-    "dev": "nodemon zomatoApi.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Vikrant Singh",
   "license": "ISC",
